@@ -68,4 +68,4 @@ Advantages of TRAME’s search of remote resources:
 - All search results found by TRAME’s meta-search engine are accessible via the original provider’s web site, with their own policies and licensing methods
 - A user query is sent simultaneously over a wide number of connected systems in order to collect a unique list of results. The search results will have all the information needed to identify each individual manuscript, such as localization (City, Library and Holding), shelf-mark and the link to the actual digital resource (URI: uniform resource identifier)
 
-To learn more about the technical background of TRAME and TRAME 2 please have a look at the source code documentation.
+
