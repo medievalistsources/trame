@@ -48,3 +48,24 @@ TRAME allows the user to search simultaneously in library catalogues, project da
 - Early Manuscripts at Oxford University
 - Bibliothèque Municipale de Lyon
 - Mazarinum - Les collections numeriques de la Bibliotheque Mazarine - Mazarinum
+
+##5. Technical Background
+
+TRAME’s development has been influenced by changes regarding the nature of information available in the WWW. TRAME has developed from a basic meta-search approach towards an attempt to establish a Medieval Semantic Knowledge base, by using custom applications for information collection and integration (i.e.: web crawler, data miner).
+
+The application is written in OO-PHP, the design follows the MVC Pattern, the RDBMS is MySql and the front-end combines Xhtml and Javascript.
+
+The search engine scans a set of sources for searched query terms and retrieves links to provide a wide range of information, including simple references, detailed manuscript record, and full-text transcriptions.
+
+Currently, it is possible to perform queries by freetext, shelf-mark, author, title, date, copyist or incipit, on more than 80 selected scholarly digital resources across the EU and the USA.
+
+Advantages of TRAME’s search of remote resources:
+
+- TRAME has light and flexible infrastructure, as both data indexes are not stored in a central database. Actually no information is stored except for a few technical metadata.
+- TRAME will send the user query across a vast number of repositories and present the results in a single list.
+- TRAME can send a user query across a number or remote systems over HTTP protocol, it’s also supporting OAI-PMH on selected repositories and (if available) specific APIs
+- The results will be divided in groups according to their provenance or type (the original data provider)
+- All search results found by TRAME’s meta-search engine are accessible via the original provider’s web site, with their own policies and licensing methods
+- A user query is sent simultaneously over a wide number of connected systems in order to collect a unique list of results. The search results will have all the information needed to identify each individual manuscript, such as localization (City, Library and Holding), shelf-mark and the link to the actual digital resource (URI: uniform resource identifier)
+
+To learn more about the technical background of TRAME and TRAME 2 please have a look at the source code documentation.
