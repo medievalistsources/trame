@@ -51,9 +51,9 @@ TRAME allows the user to search simultaneously in library catalogues, project da
 - Bibliothèque Municipale de Lyon
 - Mazarinum - Les collections numeriques de la Bibliotheque Mazarine - Mazarinum
 
-##5. Technical Background
+##3. Technical Background
 
-TRAME’s development has been influenced by changes regarding the nature of information available in the WWW. TRAME has developed from a basic meta-search approach towards an attempt to establish a Medieval Semantic Knowledge base, by using custom applications for information collection and integration (i.e.: web crawler, data miner).
+TRAME’s development has been influenced by changes regarding the nature of information available in the www, TRAME has developed from a basic meta-search approach towards an attempt to establish a Medieval Semantic Knowledge base, by using custom applications for information collection and integration (i.e.: web crawler, data miner).
 
 The application is written in OO-PHP, the design follows the MVC Pattern, the RDBMS is MySql and the front-end combines Xhtml and Javascript.
 
