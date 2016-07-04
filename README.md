@@ -70,4 +70,9 @@ Advantages of TRAME’s search of remote resources:
 - All search results found by TRAME’s meta-search engine are accessible via the original provider’s web site, with their own policies and licensing methods
 - A user query is sent simultaneously over a wide number of connected systems in order to collect a unique list of results. The search results will have all the information needed to identify each individual manuscript, such as localization (City, Library and Holding), shelf-mark and the link to the actual digital resource (URI: uniform resource identifier)
 
-
+##4. How to install
+- Create a virtual directory.
+- Save "rest.php", "common.inc.php" and "client.inc.php" files in the virtual directory.
+- Save "Appl" and "Client" folder in the virtual directory.
+- Create a DB with the information about the platform/sites to search on; "tramenew.dump" is a dump of an example DB.
+- "common.inc.php" and "client.inc.php" files must be modified with your DB parameters.
